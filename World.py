@@ -89,9 +89,9 @@ def try_move(dx, dy):
             score -= walk_reward
             score += w
             if score > 0:
-                print("Success! score: ", score)
+                print "Success! score: ", score
             else:
-                print("Fail! score: ", score)
+                print "Fail! score: ", score
             restart = True
             return
     #print "score: ", score
